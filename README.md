@@ -88,13 +88,22 @@ Execute the playbook install_docker.yml located in the playbooks folder to insta
 
 	ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
 
+------------
 
+![image](https://github.com/Sebastianavia/SNR_Ansible_AZ-VM/assets/71205906/3285ff36-ba7f-4bd0-a311-52dbef863d68)
+
+------------
 
 To run the container, execute:
 
 	ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
 
+------------
 
+![image](https://github.com/Sebastianavia/SNR_Ansible_AZ-VM/assets/71205906/e6f09be0-f5fb-4013-bb1e-0a07ee8a252d)
+
+
+------------
 
 > Step 5
 
@@ -118,7 +127,7 @@ First, we will navigate to the settings of the VM uploaded on Azure, then to the
 > Step 6
 
 Finally, enter the VM's IP along with the established port to access via the internet: Example 52.179.124.224:6034. You can now access and play Mario.
-![image](https://github.com/Sebastianavia/SNR_Ansible_AZ-VM/assets/71205906/16cab070-2411-42d7-a2e1-e898828727fa)
+
 
 
 ------
